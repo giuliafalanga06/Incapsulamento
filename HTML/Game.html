@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Incapsulamento - Falanga & Sighinolfi</title>
+        <script src="../LIB/jquery-3.7.1.min.js"></script>
+        <script src="../LIB/bootstrap.js"></script>
+        <script src="../JS/Incapsulamento-game.js"></script>
+        <link rel="stylesheet" type="text/css" href="../CSS/IncapsulamentoCSS.css">
+        <link rel="stylesheet" type="text/css" href="../LIB/bootstrap.css">
+        <link rel="shortcut icon" href="../IMG/network-135.png">
+            </head>
+    <body id="schermo">
+    <h1>INCAPSULAMENTO - GAME</h1>
+    <div class="menu">
+        <a class="btn btn-outline-primary  me-2" href="Home.html">Home</a>
+        <a class="btn btn-outline-primary  me-2" href="Teoria.html">Teoria</a>
+        <a class="btn btn-outline-primary  me-2" href="Tutorial-iso-osi.html">Animazione</a>
+        <a class="btn btn-outline-primary  me-2" href="Game.html">Game</a></li>
+    </div>
+    <div id="body2">
+        <div class="container" id="container-game">
+            <div class="row">
+                <div id="host1" class=" col-sm-1">
+                    <p>Host 1</p>
+                    <p>Application Layer</p>
+                    <p>Presentation Layer</p>
+                    <p>Session Layer</p>
+                    <p>Transport Layer</p>
+                    <p>Network Layer</p>
+                    <p>Data Link Layer</p>
+                    <p>Physical Layer</p>
+                </div>
+                
+                    
+                <div id="div-game" class="col-sm-10">
+            
+                    <!-- host layer -->
+                    <div id="livHost" class="righe">
+                        <div class="riquadri" id="livHost1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div>
+                    
+                    <!-- application layer -->
+                    <div id="application" class="righe">
+                        <div class="riquadri" id="application1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="application2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div>
+
+                    <!-- presentation layer -->
+                    <div id="presentation" class="righe">
+                        <div class="riquadri" id="presentation1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="presentation2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="presentation3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div>
+
+                    <!-- segment layer -->
+                    <div id="session" class="righe">
+                        <div class="riquadri" id="segment1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="segment2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="segment3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="segment4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div>
+
+                    <!-- transport layer -->
+                    <div id="transport" class="righe">
+                        <div class="riquadri" id="transport1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="transport2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="transport3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="transport4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="transport5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div>
+                        
+                    <!-- network layer -->
+                    <div id="network" class="righe">
+                        <div class="riquadri" id="network1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="network2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="network3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="network4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="network5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="network6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div>
+
+                    <div id="data" class="righe">
+                        <div class="riquadri" id="data1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="data2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="data3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="data4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="data5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="data6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="data7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="data8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div>
+                        
+                    <div id="physical" class="righe">
+                        <div class="riquadri" id="physical1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="physical2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="physical3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="physical4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="physical5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="physical6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="physical7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div class="riquadri" id="physical8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div>
+                    
+                </div>
+
+                <div id="pacchetti-game" class="col-sm-1">
+                    <img src="../IMG/sh.png" id="shg" draggable="true" ondragstart="drag(event)">
+                    <img src="../IMG/DT.png" id="dtg" draggable="true" ondragstart="drag(event)">
+                    
+                    <img src="../IMG/ah.png" id ="ahg" draggable="true" ondragstart="drag(event)">
+                
+                    <img src="../IMG/th.png" id="thg" draggable="true" ondragstart="drag(event)">
+                    
+                    <img src="../IMG/ph.png" id="phg" draggable="true" ondragstart="drag(event)">
+                    
+                    <img src="../IMG/nh.png" id="nhg" draggable="true" ondragstart="drag(event)">
+                    
+                    <img src="../IMG/dh.png" id="dhg" draggable="true" ondragstart="drag(event)">
+                    
+                    <img src="../IMG/data.png" id="datag" draggable="true" ondragstart="drag(event)">
+                </div>
+                    
+            </div>
+        </div>
+
+        <div id="div-tasti">
+                <a id="check" class="btn btn-outline-primary2  me-2">Check</a>  
+                <a id="rules" class="btn btn-outline-primary2  me-2" href="../HTML/Regole.html">Regole</a>
+        </div>
+        <div id="pacchetti-game">
+            
+                    
+                    
+        </div>
+            
+            
+           
+            
+    </div>
+    <div id="div-gameover">
+        <img src="../IMG/gameover.png" width="800px" id="gameover"> <br>
+        <a id="riprova" class="btn btn-outline-primary2  me-2" href="../HTML/Game.html">Riprova</a>
+    </div> 
+    <div id="div-win">
+        <img src="../IMG/win.png" width="800px" id="win"> <br>
+        <a id="back" class="btn btn-outline-primary2  me-2" href="../HTML/Game.html">Riprova</a>
+    </div>
+    
+    
+</body>
+</html>

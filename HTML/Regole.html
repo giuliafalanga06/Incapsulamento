@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Incapsulamento - Falanga & Sighinolfi</title>
+        <script src="../LIB/jquery-3.7.1.min.js"></script>
+        <script src="../LIB/bootstrap.js"></script>
+        <script src="../JS/IncapsulamentoJS-iso-osi.js"></script>
+        <link rel="stylesheet" type="text/css" href="../CSS/IncapsulamentoCSS.css">
+        <link rel="stylesheet" type="text/css" href="../LIB/bootstrap.css">
+        <link rel="shortcut icon" href="../IMG/network-135.png">
+            </head>
+    <body id="schermo">
+    <h1>REGOLE DEL GIOCO</h1>
+    <div class="menu">
+        <a class="btn btn-outline-primary  me-2" href="Home.html">Home</a>
+        <a class="btn btn-outline-primary  me-2" href="Teoria.html">Teoria</a>
+        <a class="btn btn-outline-primary  me-2" href="Tutorial-iso-osi.html">Animazione</a>
+        <a class="btn btn-outline-primary  me-2" href="Game.html">Game</a></li>
+    </div>
+    <div class="container" id="container-game">
+        <div class="row">
+            <div id="div-regole" class=" col-sm-7">
+                <p>
+                    <b>Scopo:</b> completare il livello selezionato con i pacchetti che fanno parte di esso, inserendoli nell'ordine corretto.<br>
+                    <b>Suggerimento:</b> Partire a posizionare i pacchetti da sinistra
+                </p>
+                <p><b>Procedimento:</b></p>
+                <ul>
+                    <li>Tenere cliccato un header e trascinarlo all'interno del campo corretto</li>
+                    <li>Rilasciare l'header </li>
+                    <li>Ripetere il procedimento finchè non sono riempiti tutti i campi</li>
+                    <li>Cliccare<button id="check-regole" class="btn btn-outline-primary2  me-2">Check</button>in basso per verificare il corretto ordinamento</li>
+                </ul>
+                <p><b>ATTENZIONE!</b> Una volta inserito un pacchetto è possibile spostarlo solo all'interno del livello stesso</p>
+                
+        
+            </div>
+            <div class=" col-sm-5">
+
+                <table id="TabLegenda2">
+                    <tr>
+                      <th>Pacchetto</th>
+                      <th>Significato</th>
+                    </tr>
+                    
+                    <tr>
+                      <td> <img src="../IMG/data.png" width="85px"></td>
+                      <td>Data</td>
+                    </tr>
+                    
+                    <tr>
+                      <td><img src="../IMG/ah.png" width="85px"></td>
+                      <td>Application header</td>
+                    </tr>
+                    
+                     <tr>
+                      <td><img src="../IMG/ph.png" width="85px"></td>
+                      <td>Presentation header</td>
+                    </tr>
+                    
+                     <tr>
+                      <td><img src="../IMG/sh.png" width="85px"></td>
+                      <td>Session header</td>
+                    </tr>
+                    
+                     <tr>
+                      <td><img src="../IMG/th.png" width="85px"></td>
+                      <td>Transport header</td>
+                    </tr>
+                    
+                     <tr>
+                      <td><img src="../IMG/nh.png" width="85px"></td>
+                      <td>Network header</td>
+                    </tr>
+                    
+                     <tr>
+                      <td><img src="../IMG/dh.png" width="85px"></td>
+                      <td>Data Link header</td>
+                    </tr>
+                    
+                     <tr>
+                      <td><img src="../IMG/dt.png" width="85px"></td>
+                      <td>Data link tail</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        
+    </div>
+    <div id="back"><a class="btn btn-outline-primary2  me-2" href="Game.html">Back</a></div>
+
+
+    
+        
+
+    
+    </body>
+</html>

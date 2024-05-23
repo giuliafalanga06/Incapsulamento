@@ -1,0 +1,174 @@
+#schermo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #d7ebff;
+}
+#schermo-home{
+    text-align: center;
+    background-color: #d7ebff;
+}
+#titolo{
+    font-family: Trebuchet, Tahoma, Arial, sans-serif;
+    font-weight:1000;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 350px;
+}   
+#by{
+    color: rgb(13,110,253);
+    font-family: Trebuchet, Tahoma, Arial, sans-serif;
+    font-size: 22px;
+}
+h1{
+    text-align: center;
+    color: rgb(13,110,253);
+    font-family: Trebuchet, Tahoma, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+h2{
+    color: rgb(13,110,253);
+    font-family: Trebuchet, Tahoma, Arial, sans-serif;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+/*HOME*/
+#div-home{
+    margin-top: 60px;
+    margin-left: 90px;
+    font-size: 20px; 
+    margin-right: 900px;
+}
+#foto-inc{
+    margin-left: 1070px;
+    margin-top: -450px;
+}
+/*TUTORIAL*/
+#host1 p, #host2 p {
+    height: 80px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    padding : 10px;
+    width: 100px;
+    text-align: center;
+}
+
+/*GAME*/
+#ahg,#phg,#shg,#thg,#nhg,#dhg,#dtg{
+    width: 80px;
+} 
+#datag{
+    height: 51.03px;
+}
+#pacchetti-game{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.riquadri{
+    border: black solid 1px;
+    padding: 25px 40px;
+    display: inline;
+}
+#cuori{
+    margin-top:  -830px;
+    margin-left: 300px;
+}
+#container-game{
+    margin-top: -20px;
+}
+#riprova{
+    margin-top: -130px;
+}
+#div-win, #div-gameover, #div-tasti{
+    text-align: center;
+}
+#check{
+    margin-top: -80px;
+}
+#rules{
+    margin-top: -80px;
+}
+#datag{
+    margin-left: 2px;
+}
+/*REGOLE*/
+#div-regole{
+    text-align: center;
+    margin-top: 50px;
+}
+ul{
+    text-align: center;
+    list-style-type:decimal;
+    display:inline-block;
+}
+#check-regole{
+    margin-left: 10px;
+}
+/*MENU*/
+.menu{
+    text-align: center;
+    margin: 0px;
+    font-size: 16.5px;
+    height: 80px;
+    text-decoration: none;
+}
+
+/*GESTIONE CONTAINER*/
+#myContainer1 {
+    position: relative;
+}
+
+#myContainer1 img{
+    height: 40px;
+    position: absolute;
+}
+
+/*GESTIONE POSIZIONE IMMAGINI PACCHETTI*//*
+#ah {margin-top: 100px;}
+#ph {margin-top: 200px;}
+#sh {margin-top: 300px;}
+#th {margin-top: 400px;}
+#nh {margin-top: 500px;}
+#dh {margin-top: 600px;}
+#dt {margin-top: 600px;}*/
+
+/*LEGENDA*/
+#TabLegenda, #TabLegenda2{
+    margin: auto;
+    margin-bottom: 40px;
+}
+#TabLegenda2 th, #TabLegenda2 td{
+    width:100px;
+}
+
+
+
+#host{
+    margin-top: 25px;
+}
+.righe{
+    margin-bottom:60px;
+}
+
+#div-tasti{
+    margin-top: 70px;
+}
+
+#pacchetti-game img{
+    margin-bottom: 20px;
+}
+
+#div-regole li{
+    margin-bottom: 13px;
+    text-align: left;
+    
+}
+
+#div-regole{
+    text-align: left;
+}
+
+#back{
+    text-align: center;
+}
